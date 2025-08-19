@@ -1,0 +1,15 @@
+class complex:
+def__init__(self,real,imaginary):
+   self.rael = real
+   self.imaginary = imaginary
+def__add__(self,other):
+ return Complex(self.real + other real,self imaginary + other imaginary)
+def__str__self(self):
+  return f"{self.real} + {self.imaginary}:"
+def read(n):
+    complex_numbers = []
+    for i in range(n):
+real = float(input(f"enter the real part of complex numbers {i + i}:"))
+imaginary = float(input(f"enter the imaginary part of complex nubers {i+1:))
+complex_numbers.append(complex(real,imaginary))
+return complex_numbers
