@@ -13,3 +13,16 @@ real = float(input(f"enter the real part of complex numbers {i + i}:"))
 imaginary = float(input(f"enter the imaginary part of complex nubers {i+1:))
 complex_numbers.append(complex(real,imaginary))
 return complex_numbers
+def sum(complex_numbers)
+total = complex(0,0)
+for n in complex_numbers:
+    total = total+cn
+return total
+
+n = int(input("Enter the numbers of complex numbers (N>=2"))
+if n<2:
+     print(N"must be least 2")
+     exit()
+complex_numbers = read(n)
+total = sum(complex_numbers)
+print("The sum of the complex numbers is :",total)
